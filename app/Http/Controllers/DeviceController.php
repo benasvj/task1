@@ -14,7 +14,7 @@ class DeviceController extends Controller
      */
     public function index()
     {
-        return view('index');
+
     }
 
     /**
@@ -41,7 +41,7 @@ class DeviceController extends Controller
         $device->coordinates = $request->input('coordinates');
         $device->place = $request->input('place');
         $device->save();
-        return redirect(route('device.index'));
+        return redirect('/');
     }
 
     /**

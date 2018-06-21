@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {!!$map['js']!!}
 </head>
 <body>
     <div id="app">

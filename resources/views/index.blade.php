@@ -18,6 +18,17 @@
         </select>
         <button type="submit">Send</button> 
     </form>
+
+    <div class="row justify-content-center">
+        <div class="col-2 mt-5">
+
+        </div>
+        <div class="col-md-8">
+            {!!$map['html']!!}
+        </div>
+        <div id="directionsDiv"></div>
+    </div>
+
 @endsection
 
 
